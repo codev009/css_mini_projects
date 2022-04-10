@@ -17,6 +17,99 @@ body {
     background-color: white;
 }
 
-.logo {
-    width: 30%;
+.content-ctr {
+    padding: 20px 30px;
+    box-sizing: border-box;
 }
+
+.top-ctr {
+    text-align: center;
+}
+
+.logo {
+    width: 40%;
+}
+
+.top-ctr > h5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+.top-ctr > img {
+    margin-bottom: 25px;
+}
+
+.top-ctr > p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+input[type="password"], input[type="email"] {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 8px;
+    width: 100%;
+    padding: 5px;
+}
+
+.check-ctr {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check-ctr > input {
+    transform: scale(0.8);
+    margin-right: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    border: none;
+    padding: 8px 0;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.pw-forgot {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pw-forgot > a {
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 760px)  {
+    .container {
+        box-shadow: 5px 3px 20px -3px #999999;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 900px)  {
+    .container {
+        width: 650px;
+        display: flex;
+    }
+    .content-ctr {
+        width: 50%;
+        height: 100%;
+    }
+    .image-ctr {
+        width: 50%;
+        height: 100%;
+        background: bottom / cover url('https://kajabi-app-assets.kajabi-cdn.com/assets/login_admin-93a66f148ccfa92ad2a1e0994b375808e808d08156ffbcf03024021f8c698074.jpg');
+    }
+}
+
