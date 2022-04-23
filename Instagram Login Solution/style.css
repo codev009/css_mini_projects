@@ -47,3 +47,28 @@ body {
     font-weight: 600;
     margin: 15px 0 25px;
 }
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-container p {
+    margin: -10px;
+}
+
+.login-container p span {
+    background-color: white;
+    padding: 0 20px;
+    color: grey;
+    font-size: 14px;
+}
+
+.login-container  a {
+    display: block;
+    margin-top: 40px;
+    color: navy;
+    text-decoration: none;
+    font-weight: 500;
+
+}
