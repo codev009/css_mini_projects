@@ -92,9 +92,26 @@ hr {
 }
 
 .buttons-container {
+    margin-top: 40px;
     text-align: center;
 }
 
 .buttons-container img {
+    margin-top: 20px;
     width: 35%;
 }
+
+footer {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 13px;
+    color: #777;
+}
+
+footer a {
+    display: block;
+    margin: 3px 7px;
+}
+
