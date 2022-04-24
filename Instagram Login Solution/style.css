@@ -18,6 +18,11 @@ body {
     margin: 40px auto auto;
 }
 
+.right-content {
+    width: 100%;
+
+}
+
 .login-container {
     /*background-color: grey;*/
     padding: 0 50px 20px;
@@ -136,5 +141,11 @@ footer a {
 @media only screen and (min-width: 992px) {
     body {
         background-color: red;
+    }
+    .content-container {
+        width: 700px;
+    }
+    .right-content {
+        width: 50%;
     }
 }
