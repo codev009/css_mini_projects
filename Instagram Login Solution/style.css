@@ -11,12 +11,15 @@ body {
     background-color: white;
 }
 
-.login-container {
-    /*background-color: grey;*/
+.content-container {
     width: 350px;
     height: 90%;
     min-height: 800px;
     margin: auto;
+}
+
+.login-container {
+    /*background-color: grey;*/
     padding: 0 50px 50px;
     box-sizing: border-box;
     text-align: center;
@@ -71,4 +74,27 @@ hr {
     text-decoration: none;
     font-weight: 500;
 
+}
+
+.login-container  a:nth-of-type(2) {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.sign-up-container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sign-up-container a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.buttons-container {
+    text-align: center;
+}
+
+.buttons-container img {
+    width: 35%;
 }
