@@ -120,6 +120,10 @@ footer a {
     margin: 3px 7px;
 }
 
+.flex > img {
+    display: none;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 450px) {
     body {
@@ -139,13 +143,19 @@ footer a {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    body {
-        background-color: red;
-    }
     .content-container {
         width: 700px;
     }
+    .flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
     .right-content {
         width: 50%;
+    }
+    .flex > img {
+        width: 40%;
+        display: block;
     }
 }
