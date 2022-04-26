@@ -46,3 +46,7 @@
     padding-top: 10px;
     font-size: 10px;
 }
+
+.body-text > p {
+    padding: 10px 0;
+}
