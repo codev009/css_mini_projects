@@ -36,7 +36,13 @@
 }
 
 .section-title {
-    border-bottom: 1px solid cornflowerblue;
-    display: inline;
+    border-bottom: 2px solid cornflowerblue;
+    display: inline-block;
     padding-bottom: 10px;
+}
+
+.body-text {
+    color: grey;
+    padding-top: 10px;
+    font-size: 10px;
 }
