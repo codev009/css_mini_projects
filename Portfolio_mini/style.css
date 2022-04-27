@@ -23,7 +23,8 @@ ul > li::before {
 .card-container {
     width: 90%;
     margin: 20px auto;
-    background-color: skyblue;
+    background-image: radial-gradient(farthest-corner at 40px 40px,
+    cornflowerblue 0%, #43e 100%);
     border-radius: 4px;
 }
 
