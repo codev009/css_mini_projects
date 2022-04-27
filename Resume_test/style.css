@@ -77,6 +77,13 @@ h3 {
     padding-left: 20px;
 }
 
+.section-about hr {
+    width: 80%;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .section-about p {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8em;
@@ -86,4 +93,5 @@ h3 {
     padding-left: 20px;
     line-height: 1.5;
 }
+
 
