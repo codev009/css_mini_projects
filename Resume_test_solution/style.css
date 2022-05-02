@@ -42,6 +42,25 @@ body {
     line-height: 25px;
 }
 
+.section > ul {
+    padding-left: 0;
+}
+
+.section > ul > li {
+    font-weight: 200;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.section > ul > li::before {
+    content: "✓  ";
+}
+
+.section span {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
 .section > img {
     width: 40%;
     border-radius: 100%;
@@ -77,3 +96,30 @@ body {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+
+.all-social {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.social {
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
